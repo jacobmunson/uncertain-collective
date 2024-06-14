@@ -7,3 +7,16 @@ tests/ML_implicit/*
 tests/Behance/*
 tests/RetailRocket/*
 tests/New-ML_implicit/*
+tests/checkpoints10m/bemf/dim=100-wd=0.0001-lr=0.001-epoch=73-val_loss=2.8240.ckpt
+tests/checkpoints10m/baseline/dim=5-wd=0.001-epoch=199-val_loss=0.8138.ckpt
+tests/checkpoints10m/baseline/dim=5-wd=0.01-epoch=199-val_loss=0.8150.ckpt
+tests/checkpoints10m/baseline/dim=5-wd=0.1-epoch=199-val_loss=0.8282.ckpt
+tests/checkpoints10m/bemf/dim=100-wd=0.0001-lr=0.005-epoch=14-val_loss=2.8233.ckpt
+tests/checkpoints10m/bemf/dim=100-wd=0.001-lr=0.001-epoch=70-val_loss=2.8263.ckpt
+/tests/checkpoints10m
+/tests/checkpoints25m
+/tests/lightning_logs
+/tests/results10m
+/tests/results25m
+/tests/results
+/tests/plots

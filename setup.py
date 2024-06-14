@@ -4,7 +4,7 @@ setup(
     name='uncertain',
     version='0.4.0',
     packages=find_packages(),
-    install_requires=['torch>=1.7.0', 'numpy', 'scipy', 'pytorch-lightning', 'h5py', 'pandas', 'requests', 'matplotlib',
+    install_requires=['torch==1.10.2', 'scipy', 'pytorch-lightning==1.9.3', 'h5py', 'pandas', 'requests', 'matplotlib',
                       'scikit-learn', 'tqdm'],
     license='MIT',
     classifiers=['Development Status :: 1 - Beta',

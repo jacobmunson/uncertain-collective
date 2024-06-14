@@ -102,10 +102,10 @@ class Data(LightningDataModule):
         self.val[:, 2] = pd.factorize(self.val[:, 2], sort=True)[0]
 
     def train_dataloader(self):
-        return DataLoader(self.train, self.batch_size, drop_last=True, shuffle=True, num_workers=4)
+        return DataLoader(self.train, self.batch_size, drop_last=True, shuffle=True, num_workers=1)
 
     def val_dataloader(self):
-        return DataLoader(self.val, self.batch_size, drop_last=False, shuffle=False, num_workers=4)
+        return DataLoader(self.val, self.batch_size, drop_last=False, shuffle=False, num_workers=1)
     
     
 class ImplicitData(LightningDataModule):

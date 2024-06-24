@@ -20,3 +20,9 @@ tests/checkpoints10m/bemf/dim=100-wd=0.001-lr=0.001-epoch=70-val_loss=2.8263.ckp
 /tests/results25m
 /tests/results
 /tests/plots
+/tests/checkpoints1m/ensemble
+/tests/checkpoints1m/ordrec
+/tests/checkpoints1m
+/tests/checkpoints20m
+/tests/results1m
+/tests
